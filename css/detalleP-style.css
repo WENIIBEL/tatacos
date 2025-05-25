@@ -1,3 +1,14 @@
+h1 {
+    font-family: Poetsen One;
+    background-color: #0D4715;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
 .pedido-detalle {
     background-color: #fff;
     border: 1px solid #ccc;
