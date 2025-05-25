@@ -1,0 +1,36 @@
+h1 {
+  font-family: Poetsen One;
+  background-color: #0D4715;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+#calendario {
+  font-family: Poetsen One;
+  font-weight: 200;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+select {
+  font-family: Poetsen One;
+  padding: 5px;
+
+}
+*{
+  font-family: Poetsen One;
+}
+h2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}

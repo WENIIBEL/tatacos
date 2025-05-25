@@ -1,0 +1,37 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    padding: 20px;
+}
+
+.contenedor {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.ruta {
+    font-size: 13px;
+    color: #333;
+}
+
+.lista-pedidos {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.pedido {
+    background-color: #e6dede;
+    padding: 6px 10px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.barra {
+    margin: 0 5px;
+    color: #555;
+}

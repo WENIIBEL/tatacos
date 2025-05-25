@@ -1,0 +1,45 @@
+body {
+    font-family: Poetsen One;
+    color: black;
+}
+
+h1 {
+    margin: 20px;
+}
+.container a {
+    text-decoration: none;
+    color: #000;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    gap: 20px;
+    font-family: Poetsen One;
+}
+
+.card {
+    background-color: #ddd;
+    padding: 20px;
+    width: 200px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.card img {
+    width: 80px;
+    height: 80px;
+    object-fit: contain;
+    color: #000;
+}
+
+.card h3 {
+    margin: 10px 0 5px;
+}
+
+.card p {
+    font-size: 12px;
+    color: #333;
+}
+

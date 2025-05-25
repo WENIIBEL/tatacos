@@ -1,0 +1,80 @@
+body {
+    margin: 0;
+    padding: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #ffffff;
+}
+
+.contenedor {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.factura-box {
+    background-color: #f1eaec;
+    border-radius: 6px;
+    padding: 15px;
+    width: 340px;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, 0.1);
+}
+
+.titulo {
+    text-align: center;
+    margin: 0;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.nit {
+    text-align: center;
+    font-size: 12px;
+    margin: 0 0 10px 0;
+}
+
+.pedido {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.desc {
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.tabla {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.fila {
+    display: flex;
+    justify-content: space-between;
+    background-color: #d6d1d1;
+    padding: 4px 6px;
+    border-radius: 3px;
+    font-size: 13px;
+}
+
+.encabezado {
+    font-weight: bold;
+    background-color: #e6e6e6;
+}
+
+.descripcion {
+    background-color: transparent;
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+.total {
+    font-weight: bold;
+    justify-content: space-between;
+    background-color: #d0d0d0;
+    margin-top: 6px;
+}

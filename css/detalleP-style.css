@@ -1,0 +1,49 @@
+.pedido-detalle {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    width: 300px;
+    padding: 16px;
+    font-family: Arial, sans-serif;
+    color: #222;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}
+
+.encabezado {
+    background-color: #ddd;
+    padding: 8px;
+    border-radius: 6px;
+    font-weight: bold;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 14px;
+}
+
+.seccion-titulo {
+    margin-top: 12px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+.platos {
+    margin-top: 6px;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.fila {
+    background-color: #eee;
+    padding: 6px 10px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 13px;
+}
+
+.texto {
+    font-size: 13px;
+    margin: 4px 0;
+    line-height: 1.4;
+}

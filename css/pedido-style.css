@@ -1,0 +1,30 @@
+.pedido-lista {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 300px;
+    font-family: Arial, sans-serif;
+    text-decoration: none;
+}
+
+.pedido {
+    background-color: #eee;
+    padding: 8px 12px;
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    font-weight: 600;
+    color: #222;
+    text-decoration: none;
+
+}
+
+.numero,
+.prioridad {
+    margin: 0 5px;
+}
+
+.barra {
+    color: #666;
+}
